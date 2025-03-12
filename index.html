@@ -11,17 +11,26 @@
 </head>
 <body>
     <header>
-        <nav class="w-11/12 mx-auto flex justify-between items-center border-b-2 border-gray-300 pt-12.5 pb-8">
+        <nav class="w-11/12 mx-auto flex justify-between items-center border-b-2 border-[#17171733] pt-12.5 pb-8">
             <div class="logo">
                 <img src="assets/Logo.png" alt="">
             </div>
             <div class="short">
-                <button class="btn bg-gray-300">Short by view</button>
+                <button class="btn bg-[#25252533]">Short by view</button>
             </div>
             <div class="blog">
                 <button class="btn bg-[#FF1F3D] text-white">Blog</button>
             </div>
         </nav>
     </header>
+    <main>
+        <nav id="category-container" class="flex justify-center gap-6 py-8">
+            <div>
+                <button class="btn btn-sm bg-[#FF1F3D] text-white">All</button>
+            </div>
+        </nav>
+        <section id="video-container" class="w-11/12 mx-auto grid grid-cols-4 gap-6"></section>
+    </main>
+    <script src="script/index.js"></script>
 </body>
 </html>
